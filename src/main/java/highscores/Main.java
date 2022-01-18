@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         // reminder: https://openjfx.io/openjfx-docs/#install-javafx
         // Parent is a base-class of GridPane
-        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/highscores/main.fxml"));
         primaryStage.setTitle("Highscore");
         primaryStage.setScene(new Scene(root, 400, 275));
         primaryStage.setMinWidth(400);
